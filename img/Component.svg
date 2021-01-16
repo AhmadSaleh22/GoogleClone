@@ -1,11 +1,11 @@
 <svg id="Component_2_1" data-name="Component 2 – 1" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17">
-  <rect id="Rectangle_1" data-name="Rectangle 1" width="5" height="5" fill="#fff"/>
-  <rect id="Rectangle_1-2" data-name="Rectangle 1" width="5" height="5" transform="translate(6)" fill="#fff"/>
-  <rect id="Rectangle_1-3" data-name="Rectangle 1" width="5" height="5" transform="translate(12)" fill="#fff"/>
-  <rect id="Rectangle_1-4" data-name="Rectangle 1" width="5" height="5" transform="translate(0 6)" fill="#fff"/>
-  <rect id="Rectangle_1-5" data-name="Rectangle 1" width="5" height="5" transform="translate(6 6)" fill="#fff"/>
-  <rect id="Rectangle_1-6" data-name="Rectangle 1" width="5" height="5" transform="translate(12 6)" fill="#fff"/>
-  <rect id="Rectangle_1-7" data-name="Rectangle 1" width="5" height="5" transform="translate(0 12)" fill="#fff"/>
-  <rect id="Rectangle_1-8" data-name="Rectangle 1" width="5" height="5" transform="translate(6 12)" fill="#fff"/>
-  <rect id="Rectangle_1-9" data-name="Rectangle 1" width="5" height="5" transform="translate(12 12)" fill="#fff"/>
+  <rect id="Rectangle_1" data-name="Rectangle 1" width="5" height="5" fill="#202124"/>
+  <rect id="Rectangle_1-2" data-name="Rectangle 1" width="5" height="5" transform="translate(6)" fill="#202124"/>
+  <rect id="Rectangle_1-3" data-name="Rectangle 1" width="5" height="5" transform="translate(12)" fill="#202124"/>
+  <rect id="Rectangle_1-4" data-name="Rectangle 1" width="5" height="5" transform="translate(0 6)" fill="#202124"/>
+  <rect id="Rectangle_1-5" data-name="Rectangle 1" width="5" height="5" transform="translate(6 6)" fill="#202124"/>
+  <rect id="Rectangle_1-6" data-name="Rectangle 1" width="5" height="5" transform="translate(12 6)" fill="#202124"/>
+  <rect id="Rectangle_1-7" data-name="Rectangle 1" width="5" height="5" transform="translate(0 12)" fill="#202124"/>
+  <rect id="Rectangle_1-8" data-name="Rectangle 1" width="5" height="5" transform="translate(6 12)" fill="#202124"/>
+  <rect id="Rectangle_1-9" data-name="Rectangle 1" width="5" height="5" transform="translate(12 12)" fill="#202124"/>
 </svg>

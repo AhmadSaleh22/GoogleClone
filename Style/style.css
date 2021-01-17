@@ -90,3 +90,15 @@ button:hover{
 }
 
 /*-------------------- footer --------------------------*/
+.footer{
+  position: absolute;
+  bottom: 0;
+}
+
+.footerBottom{
+  display: flex;
+}
+
+ul li{
+  margin-left: 15px;
+}

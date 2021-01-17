@@ -34,6 +34,10 @@ button:focus {
   margin: auto;
   position: relative;
 }
+/*------------------ NavBar ------------------------*/
+.contain .nav .img{
+  border-radius: 50%;
+}
 
 /*------------------- Logo Style ---------------------*/
 .Search .logo{

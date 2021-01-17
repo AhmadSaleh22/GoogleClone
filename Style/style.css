@@ -1,0 +1,158 @@
+/*----------------- Main Page -------------------------*/
+* {
+    margin: 0;
+  }
+  *:focus {
+    outline: 0 !important;
+}
+  
+  html, body {
+    height: 100%;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+  }
+
+/*------------------- Common Style -------------------*/
+ul{
+    list-style: none;
+    display: flex;
+}
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+ul li a{
+  color: rgba(0,0,0,0.87);
+  text-decoration: none;
+}
+ul li a:hover{
+  color: rgba(0,0,0,0.87);
+}
+
+.contain{
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  position: relative;
+}
+/*------------------ NavBar ------------------------*/
+.nav{
+  display: flex;
+  float: right;
+  flex-direction: row-reverse;
+  margin: 30px ;
+}
+.contain .nav .profile{
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  margin-left: 15px;
+  line-height: 15px;
+}
+.contain .nav .img, .contain .nav .btn{
+  line-height: 20px;
+}
+
+/*------------------- Logo Style ---------------------*/
+
+/*------------------ Search Style -------------------*/
+.Search{
+  position: absolute;
+  text-align: center;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+/*------------------- Search Bar ------------------*/
+.searchBar{
+  margin-top: 10px;
+  margin-bottom: 25px;
+  width: 580px;
+  height: 50px;
+  border-radius: 50px;
+  border: 1px solid #dfe1e5;
+}
+input{
+  width: 500px;
+  height: 45px;
+  border-width: 0px;
+  border-style: none;
+}
+.inputSpan{
+  margin-left: 15px;
+}
+.searchBar:hover{
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.001), 0 3px 5px 0 rgba(0, 0, 0, 0.1);
+}
+
+/*---------------------- style of button ------------------*/
+.buttons{
+  margin-bottom: 25px;
+}
+button{
+  border-style: none;
+  width: 140px;
+  height: 35px;
+  background-color: #f8f9fa;
+}
+button:hover{
+  border-style: solid;
+  border-color: #3c4043;
+  border-width: 0.01px;
+  border-radius: 2px;
+  box-shadow: 0 2px 4px 0 #dfe1e5;
+}
+
+/*-------------------- footer --------------------------*/
+.footer{
+  min-width: 400px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  border-top: 1px solid #dadce0;
+  background-color: #f2f2f2;
+  color: rgba(0,0,0,0.55);
+  line-height: 40px;
+}
+
+.footerBottom{
+  display: flex;
+}
+
+ul li{
+  margin-left: 10px;
+}
+
+.footer div span{
+  padding-left: 58px;
+}
+.footerBottom{
+  border-top: 1px solid #dadce0;
+}
+.footer .footerBottom .left{
+  float: right;
+  margin-right: 30px;
+  position: absolute;
+  right: 0;
+}
+
+
+/*----------------------- Screen Sizes -------------------*/
+@media screen and (max-width: 600px) {
+  .footer .footerBottom{
+    display: inline-block;
+    flex-direction: column-reverse;
+    width: 100%;
+    height: 100%;
+  }
+  
+}
